@@ -1,0 +1,37 @@
+
+.navbar {
+    background-color: #BAB8FF;
+}
+
+.navbar-brand {
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    color: #0A1A42;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0A1A42;
+} 
+
+.nav-link {
+    color: #0A1A42;
+    font-weight: bold;
+}
+
+.Rachel {
+    width: 240px;
+    height: 268px;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
