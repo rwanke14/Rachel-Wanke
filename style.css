@@ -1,15 +1,23 @@
 
+
+body{
+    background-image: url(https://weblium.com/blog/wp-content/uploads/2019/11/image23-1000x469.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
 /* Setting navbar background to a wine red */
 
 .navbar {
-    background-color: #EDC7B7;
+    background-color: #314455;
 
 }
 
 /* setting nav bar links to white */
 
-.nav-link {
-    color: #123C69;
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
 /* set links to other pages to be on the right of the navbar */
@@ -20,15 +28,15 @@
     width: 300px;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
+    
    
 } 
 
 /* Set logo of navbar (my name) to different font and size to distinguish it from the links */
 
 .navbar-brand {
-    font-family: 'Acme', sans-serif;
-    font-size: x-large;
-    color: #123C69;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200%;
 }
 
 
@@ -38,13 +46,17 @@
     width: 80%;
     height: auto;
     margin: 40px;
+    background-color: #f2d8dc81;
 }
+
+    
+
 
 /* resizing about me photo - original size was too large */
 
 .Rachel {
-    width: 240px;
-    height: 268px;
+    width: 40%;
+    height: auto;
     float: left;
     margin: 0px 20px 0px 0px;
 }
@@ -54,6 +66,12 @@
 .display-4 {
     font-family: 'Montserrat', sans-serif;
     
+}
+
+h1 { 
+    font-family: 'Montserrat', sans-serif;
+    color: #2E1114;
+    font-weight: bold;
 }
 
 
@@ -118,7 +136,7 @@
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f2f0f0b0;
     padding: 10px;
   }
   
@@ -137,6 +155,21 @@
     clear: both;
   }
   
+
+/* Setting footer color, font and text size to compliment the navbar style. Same style applied across all pages. */
+  .footer {
+    background-color:#314455;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+}
+
+.footer-text {
+    background-color:#314455;
+    color: white;
+    font-size: 80%;
+}
+
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
