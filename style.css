@@ -1,11 +1,15 @@
 
 
+/* Setting background for page with image url and formatting to be responsive */
+
 body{
     background-image: url(https://weblium.com/blog/wp-content/uploads/2019/11/image23-1000x469.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% 100%;
 }
+
+
 
 /* Setting navbar background to a wine red */
 
@@ -28,29 +32,29 @@ body{
     width: 300px;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
-    
-   
+       
 } 
 
 /* Set logo of navbar (my name) to different font and size to distinguish it from the links */
 
 .navbar-brand {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 200%;
+    font-size: 20px;
 }
 
 
 /* CSS for jumbotron on each page */
 
+
+
 .jumbotron.jumbotron-fluid {
     width: 80%;
     height: auto;
-    margin: 40px;
+    margin: 30px;
     background-color: #f2d8dc81;
 }
 
     
-
 
 /* resizing about me photo - original size was too large */
 
@@ -63,14 +67,10 @@ body{
 
 /* setting About Me title font */
 
-.display-4 {
-    font-family: 'Montserrat', sans-serif;
-    
-}
 
 h1 { 
     font-family: 'Montserrat', sans-serif;
-    color: #2E1114;
+    color:  #314455;
     font-weight: bold;
 }
 
@@ -107,11 +107,19 @@ h1 {
 
 /* CSS for form page */
 
+/*
 * {
     box-sizing: border-box;
-  }
+  } 
   
   /* Style inputs */
+
+  form {
+      color:  #314455;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+  }
+
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -121,17 +129,11 @@ h1 {
     resize: vertical;
   }
   
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+ .btn {
+     background-color: #314455;
+     border-color: #314455;
+     color: white;
+ }
   
   /* Style the container/contact section */
   .container {
@@ -169,12 +171,4 @@ h1 {
     color: white;
     font-size: 80%;
 }
-
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
 
