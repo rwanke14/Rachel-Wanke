@@ -2,11 +2,11 @@
 
 /* Setting background for page with image url and formatting to be responsive */
 
-body{
+body {
     background-image: url(https://weblium.com/blog/wp-content/uploads/2019/11/image23-1000x469.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100% 100%;
+    background-size: 100% 165%;
 }
 
 
@@ -59,21 +59,30 @@ body{
 /* resizing about me photo - original size was too large */
 
 .Rachel {
-    width: 40%;
+    width: 35%;
     height: auto;
     float: left;
     margin: 0px 20px 0px 0px;
+    
+
 }
 
 /* setting About Me title font */
 
-
-h1 { 
+.display-4 { 
     font-family: 'Montserrat', sans-serif;
     color:  #314455;
-    font-weight: bold;
+    font-size: 5vw;
 }
 
+/* Setting style for paragraphs on about me page */
+
+.lead {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color:  #314455;
+    font-weight: 100;
+}
 
 /* CSS for portfolio HTML */
 
@@ -107,13 +116,6 @@ h1 {
 
 /* CSS for form page */
 
-/*
-* {
-    box-sizing: border-box;
-  } 
-  
-  /* Style inputs */
-
   form {
       color:  #314455;
       font-family: 'Montserrat', sans-serif;
@@ -135,6 +137,7 @@ h1 {
      color: white;
  }
   
+
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
@@ -156,14 +159,19 @@ h1 {
     display: table;
     clear: both;
   }
-  
+
+
 
 /* Setting footer color, font and text size to compliment the navbar style. Same style applied across all pages. */
-  .footer {
+.footer {
     background-color:#314455;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
 
 .footer-text {
@@ -171,4 +179,56 @@ h1 {
     color: white;
     font-size: 80%;
 }
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    left: 90%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
 
