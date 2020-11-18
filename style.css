@@ -6,7 +6,7 @@ body {
     background-image: url(https://weblium.com/blog/wp-content/uploads/2019/11/image23-1000x469.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100% 165%;
+    background-size: 100% 210%;
 }
 
 
@@ -30,7 +30,6 @@ body {
     position: absolute;
     right: 0px;
     width: 300px;
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
        
 } 
@@ -42,19 +41,31 @@ body {
     font-size: 20px;
 }
 
+/* adding color to dropdown menu */
+
+.nav-link {
+  background-color: #314455;
+  text-align: center;
+}
 
 /* CSS for jumbotron on each page */
-
-
 
 .jumbotron.jumbotron-fluid {
     width: 80%;
     height: auto;
     margin: 30px;
     background-color: #f2d8dc81;
-}
+    background-image: url(https://img.freepik.com/free-photo/abstract-art-background-light-blue-white-colors-watercolor-painting-canvas_113767-2079.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 90%;
+}  
 
-    
+/* Making a separate background size for the url for portfolio page to adjust the height */
+
+.jumbotron.jumbotron-fluid {
+  background-size: 100% 95%;
+}
 
 /* resizing about me photo - original size was too large */
 
@@ -181,11 +192,11 @@ body {
 }
 
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) to provide links to my social media pages. */
 .icon-bar {
     position: fixed;
-    top: 30%;
-    left: 90%;
+    top: 40%;
+    left: 2%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -217,8 +228,8 @@ body {
     color: white;
   }
   
-  .google {
-    background: #dd4b39;
+  .pinterest {
+    background: #cb2027;
     color: white;
   }
   
@@ -226,9 +237,12 @@ body {
     background: #007bb5;
     color: white;
   }
-  
-  .youtube {
-    background: #bb0000;
+
+  .github {
+    background: black;
     color: white;
+    font-size:36px
   }
+  
+
 
