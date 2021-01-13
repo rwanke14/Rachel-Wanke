@@ -146,6 +146,7 @@ body {
      background-color: #314455;
      border-color: #314455;
      color: white;
+     font-family: 'Montserrat', sans-serif;
  }
   
 
@@ -243,6 +244,32 @@ body {
     color: white;
     font-size:36px
   }
+
+  /* portfolio page styling */
+
+  #liveButton {
+    margin-left: 25%;
+  }
+
+  #codeButton {
+    margin-left: 2%;
+  }
+
+  .projectTitle {
+    text-align: center;
+    color:  #314455;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .projectDescription {
+    color:  #314455;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+  }
   
+  #portCards {
+    margin-top: 5%;
+  }
+
 
 
