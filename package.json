@@ -1,0 +1,28 @@
+{
+  "name": "aboutrachelwanke",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwanke14/All-About-Me.git"
+  },
+  "author": "Rachel Wanke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwanke14/All-About-Me/issues"
+  },
+  "homepage": "https://github.com/rwanke14/All-About-Me#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0",
+    "nodemailer-mailgun-transport": "^2.0.2",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
