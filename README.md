@@ -11,6 +11,6 @@ Website colors were picked based on complimentary colors and looking at a color 
 
 Links were added to social media on the about me page to send the user to important pages that display my work, such as Pinterest (mood boards) and GitHub (portfolio of websites). My LinkedIN was added for adding in my resume, as well as facebook to see a bit more about me or possibly link it to a Facebook Page in the future.
 
-Link to live page: https://rwanke14.github.io/All-About-Me/
+Link to live page: https://rwanke14.github.io/Rachel-Wanke/
 
-![Photo of Main Page](./assets/images/aboutmepage.png)
+![Photo of Main Page](./public/assets/images/aboutmepage.png)
