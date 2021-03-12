@@ -3,7 +3,7 @@
 /* Setting background for page with image url and formatting to be responsive */
 
 body {
-    background-image: url(https://weblium.com/blog/wp-content/uploads/2019/11/image23-1000x469.jpg);
+    background-image: url(./images/aboutBackgroundPink.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% 210%;
@@ -55,7 +55,7 @@ body {
     height: auto;
     margin: 30px;
     background-color: #f2d8dc81;
-    background-image: url(https://img.freepik.com/free-photo/abstract-art-background-light-blue-white-colors-watercolor-painting-canvas_113767-2079.jpg?size=626&ext=jpg);
+    background-image: url(./images/bluejumbotron.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 90%;
@@ -272,4 +272,37 @@ body {
   }
 
 
+  /* CSS for cards with skills */
 
+  #frontEnd {
+    margin-left: 20%;
+    margin-top: 5%;
+    
+  }
+ 
+
+  #backEnd {
+    margin-top: 5%;
+
+  }
+
+  #frontCard, #backCard {
+
+    background-color: #314455;
+    color:  white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    width: 60%;
+  }
+
+  #skillList {
+    background-color: #465a6b;
+    color:  white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media screen and (max-width: 886px) {
+    #backEnd {
+      margin-left: 20%;
+    }
+  }
