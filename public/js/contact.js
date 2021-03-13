@@ -45,7 +45,7 @@ $(document).ready(function () {
         })
             .then(() => {
         
-                //window.location.href = '/contact';
+                window.location.href = '/contact';
 
                 console.log('success')
             })
