@@ -9,10 +9,10 @@ app.post('/contact', (req, res) => {
     console.log(req.body)
 
     const transporter = nodemailer.createTransport({
-        service: 'gmail',
+        service: "gmail",
         auth: {
-            user: '',
-            pass: ''
+            user: process.env.GMAIL_USER,
+            pass: process.env.GMAIL_PASS
         }
     })
 
