@@ -3,7 +3,7 @@ require('dotenv').config()
 
 module.exports = (app) => {
 
-
+//setting up post route for gmail to send.
 app.post('/contact', (req, res) => {
 
     console.log(req.body)
